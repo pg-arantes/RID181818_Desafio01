@@ -1,0 +1,127 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+}
+
+#menuSuperior{
+    background-color: #303030;
+    color: white;
+    padding: 150px;
+    padding-left: 50px;
+}
+
+#tituloMenuSuperior{
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+
+#textoMenuSuperior{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#menuInformacional{
+    background-color: #f9f9f9;
+    padding: 75px;
+    padding-left: 150px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.numeroInformacional{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.textoInformacional{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#menuFoto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#foto{
+    margin-right: 0cm;
+}
+
+#textoFoto{
+    margin-top: 175px;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+#tituloFoto{
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+#paragrafoFoto{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+#menuCadastro{
+    background-color: #303030;
+    text-align: center;
+    color : white;
+    padding: 100px;
+}
+
+#tituloCadastro{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 25px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    margin-bottom: 50px;
+    padding-left: 25px; 
+    background-color: #FFFFFF;
+    color: #303030;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 286px;
+    height: 74px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #E07C24;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+
